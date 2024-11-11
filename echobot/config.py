@@ -15,3 +15,5 @@ class DefaultConfig:
     APP_PASSWORD = os.environ.get("MicrosoftAppPassword", "")
     APP_TYPE = os.environ.get("MicrosoftAppType", "MultiTenant")
     APP_TENANTID = os.environ.get("MicrosoftAppTenantId", "")
+    API_KEY = os.environ.get("MicrosoftAPIKey","")
+    ENDPOINT_URI = os.environ.get("MicrosoftAIServiceEndpoint","")
